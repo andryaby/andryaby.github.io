@@ -149,6 +149,16 @@ h6 {
         align-items: center;
         justify-content: space-between;
     }
+    .banner h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-weight: 900;
+        font-size: 30px;
+        color: #000000;
+        text-shadow: 2px 2px 2px #fff;
+
+    }
+
 
 
 
