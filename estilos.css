@@ -186,4 +186,38 @@ h6 {
 
 
 
+
+
+
+}
+
+
+@media screen and (max-width:300px) {
+
+    nav a {
+        font-size: 12px;
+        padding: 3px;
+        font-weight: 300;
+    }
+
+    .banner h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-weight: 900;
+        font-size: 50px;
+        color: #272727;
+        text-shadow: 2px 2px 2px #fff;
+
+    }
+
+    .banner h2 {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-weight: 900;
+        font-size: 25px;
+        color: #272727;
+        text-shadow: 2px 2px 2px #fff;
+        margin-bottom: 30px;
+    }
+
 }
