@@ -17,6 +17,12 @@
     border-top: 4px double #272727;
 }
 
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 .cabecera-principal .logo .logo1 {
     color: #272727;
@@ -41,6 +47,7 @@
     font-weight: 900;
     font-size: 40px;
     color: #272727;
+    text-shadow: 2px 2px 2px rgb(158, 148, 148);
 
 }
 
