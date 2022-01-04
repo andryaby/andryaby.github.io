@@ -138,7 +138,50 @@ h6 {
     color: #272727;
 }
 
-@media screen and (max-width:1000px) {
+.contenedor {
+    padding: 60px 0px;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.sobre-mi{
+    width: 100%;
+    height: auto;
+    background-color: hsl(96, 20%, 95%);
+
+}
+
+.sobre-mi .titulo{
+    color: #272727;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgb(158, 148, 148);
+    text-decoration: underline;
+}
+
+.parrafo-sobre-mi{
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #423f3f;
+    text-align: justify;
+    text-indent: 10px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    background: #fff;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+@media screen and (max-width:700px) {
 
     .cabecera-principal {
         flex-direction: column;
