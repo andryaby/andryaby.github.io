@@ -146,14 +146,20 @@ h6 {
     overflow: hidden;
 }
 
-.sobre-mi {
+main {
+    background-color: #fff;
     width: 100%;
+    height: auto;
+}
+
+.sobre-mi {
+    width: 90%;
     height: auto;
     background-color: hsl(96, 20%, 95%);
 
 }
 
-.sobre-mi .titulo {
+.titulo {
     color: #272727;
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
@@ -169,7 +175,7 @@ h6 {
     padding: 10px;
     font-size: 16px;
     font-family: sans-serif;
-    font-weight: 500;
+    font-weight: 300;
     color: #423f3f;
     text-align: justify;
     text-indent: 10px;
@@ -180,6 +186,10 @@ h6 {
     border-top-right-radius: 20px;
 }
 
+.servicios {
+    width: 90%;
+    background: #fff;
+}
 
 @media screen and (max-width:800px) {
 
