@@ -207,7 +207,6 @@ main {
     width: 30%;
     height: 380px;
     background-color: hsl(96, 20%, 95%);
-
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -313,6 +312,95 @@ main {
 }
 
 
+.blog {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    overflow: hidden;
+
+}
+
+
+.blog .blog-general {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.blog .blog-general .blog-ind {
+    width: 40%;
+    height: 400px;
+    background: hsl(96, 20%, 95%);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    border-bottom: 3px solid #272727;
+    border-top: 3px solid #272727;
+}
+
+
+.blog-general .blog-ind img {
+    width: 160px;
+    height: 160px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.subtitulo-blog {
+    font-size: 24px;
+    color: #272727;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.parrafo-blog {
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 300;
+    color: #423f3f;
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+.blog a {
+    text-decoration: none;
+    color: #272727;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    border: 1px solid #272727;
+    border-radius: 20px;
+    padding: 5px;
+    background: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.blog a:hover {
+    color: #fff;
+    background: #272727;
+}
+
+
+
+
 @media screen and (max-width:800px) {
 
     .cabecera-principal {
@@ -360,7 +448,7 @@ main {
     }
 
     .banner h1 {
-        font-size: 50px;
+        font-size: 45px;
 
     }
 
@@ -380,6 +468,12 @@ main {
         margin: 10px;
         border-bottom-left-radius: 30px;
         border-top-right-radius: 30px;
+    }
+
+    .blog .blog-general .blog-ind {
+        width: 80%;
+        height: 400px;
+        margin-bottom: 20px;
     }
 }
 
