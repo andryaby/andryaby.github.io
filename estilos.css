@@ -336,9 +336,19 @@ main {
     }
 }
 
+@media screen and (max-width:412px) {
 
 
-@media screen and (max-width:320px) {
+    .servicios .servicios-ind {
+        width: 90%;
+        height: 380px;
+
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
 
     nav a {
         font-size: 10px;
@@ -356,7 +366,7 @@ main {
 
 
     .servicios .servicios-ind {
-        width: 80%;
+        width: 90%;
         height: 380px;
 
     }
