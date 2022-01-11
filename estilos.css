@@ -198,21 +198,19 @@ main {
     background: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
 .servicios .servicios-ind {
     width: 30%;
-    height: 380px;
     background-color: hsl(96, 20%, 95%);
     align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
-    margin: auto;
+    margin: 00px;
     padding: 10px;
     border-radius: 20px;
     border-right: 2px solid #423f3f;
@@ -314,7 +312,6 @@ main {
 
 .blog {
     width: 100%;
-    height: auto;
     background-color: #fff;
     overflow: hidden;
 
@@ -323,7 +320,6 @@ main {
 
 .blog .blog-general {
     width: 100%;
-    height: auto;
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -333,7 +329,7 @@ main {
 
 .blog .blog-general .blog-ind {
     width: 40%;
-    height: 400px;
+    margin: 20px;
     background: hsl(96, 20%, 95%);
     padding: 20px;
     display: flex;
@@ -398,7 +394,94 @@ main {
     background: #272727;
 }
 
+.footer-general {
+    width: 100%;
+    background: #272727;
+}
 
+.titulo-footer {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+footer h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 900;
+    font-size: 40px;
+    color: #eee6e6;
+    text-shadow: 2px 2px 2px rgb(158, 148, 148);
+
+}
+
+.footer-redes {
+    width: 100%;
+    background: #272727;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.footer-redes .subtitulo-footer {
+
+    font-size: 20px;
+    color: #c4bdbd;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.footer-general .footer-ind {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+footer .footer-general .footer-ind a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    ;
+    padding: 5PX 10PX;
+    font-size: 12px;
+}
+
+footer .footer-general .footer-ind a:hover {
+    text-decoration: underline;
+    color: rgb(219, 207, 207);
+}
+
+.derechos {
+    width: 100%;
+    height: 80px;
+    max-width: 1000px;
+    margin: auto;
+    background: #5f5b5b;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.derechos p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: #fff;
+    font-style: oblique;
+}
 
 
 @media screen and (max-width:800px) {
@@ -409,6 +492,7 @@ main {
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
+
     }
 
     .cabecera-principal .logo {
@@ -432,6 +516,24 @@ main {
         text-shadow: 2px 2px 2px #fff;
 
     }
+
+    .footer-redes {
+        width: 100%;
+        background: #272727;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+
+    .footer-general .footer-ind {
+        width: 45%;
+
+    }
+
 
 
 
@@ -470,11 +572,7 @@ main {
         border-top-right-radius: 30px;
     }
 
-    .blog .blog-general .blog-ind {
-        width: 80%;
-        height: 400px;
-        margin-bottom: 20px;
-    }
+
 }
 
 @media screen and (max-width:579px) {
@@ -492,6 +590,35 @@ main {
         justify-content: center;
         align-items: center;
     }
+
+    .banner h1 {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        font-weight: 900;
+        font-size: 60px;
+        color: #000000;
+        text-shadow: 2px 2px 2px #fff;
+
+    }
+
+    .banner h2 {
+        font-size: 35px;
+    }
+
+
+    .blog .blog-general .blog-ind {
+        width: 80%;
+        height: 400px;
+        margin-bottom: 20px;
+    }
+    
+    .footer-general .footer-ind {
+        width: 90%;
+
+    }
+
+
+
 }
 
 
@@ -503,16 +630,6 @@ main {
         height: 380px;
 
     }
-}
-
-
-
-@media screen and (max-width:360px) {
-
-    nav a {
-        font-size: 10px;
-        ;
-    }
 
     .banner h1 {
         font-size: 40px;
@@ -521,6 +638,18 @@ main {
 
     .banner h2 {
         font-size: 20px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:360px) {
+
+    nav a {
+        font-size: 10px;
+
     }
 
 
