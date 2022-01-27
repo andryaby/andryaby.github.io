@@ -7,6 +7,8 @@
 
 .cabecera-principal {
     width: 100%;
+    margin:auto;
+    max-width: 1000px;
     padding: 20px 10px;
     display: flex;
     flex-direction: row;
@@ -73,7 +75,9 @@ header {
 
 .banner {
     width: 100%;
+    max-width: 1000px;
     height: 500px;
+    margin: auto;
     background: hsla(318, 29%, 80%, 0.534);
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, hsla(318, 29%, 80%, 0.534), hsla(318, 29%, 80%, 0.561)), url(img/img6.jpg);
