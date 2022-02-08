@@ -36,7 +36,9 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    border: 4px solid #c0c7cf;
+    border-top: 4px solid #3088e0;
+    border-bottom: 4px solid #3088e0;
+
     
 }
 
@@ -50,9 +52,9 @@
 
 .cabecera-principal .logo .logo1 {
     color: #fff;
-    background: #c0c7cf;
-    padding: 5px 10px;
-    font-size: 60px;
+    background: #3088e0;
+    padding:10px;
+    font-size: 70px;
     font-family: 'Brush Script MT';
     font-style: oblique;
     font-weight: 100;
@@ -62,19 +64,16 @@
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
     margin: 0px 5px;
-    border: 4px solid #366294;
     text-shadow: 1px 1px 1px #366294;
 }
 
  .titulo-mariana {
     font-family: 'Brush Script MT';
     font-style: oblique;
-    font-weight: 100;
+    font-weight: 500;
     font-size: 80px;
-    color: #c0c7cf;
-    text-shadow: 1px 1px 1px #366294;
-
-
+    color: #3088e0;
+    margin-left: 10px;
 }
 header nav{
     background: #fff;
@@ -85,20 +84,20 @@ header nav{
 }
 
 header nav a {
-    color: #366294;
+    color: #3088e0;
     font-size: 20px;
     text-decoration: none;
     padding: 5px 8px;
     font-family: 'Times New Roman', Times, serif;
     font-style: oblique;
     font-weight: normal;
-    text-shadow: 0.3px 0.3px 0.3px #366294;
+    text-shadow: 0.3px 0.3px 0.3px #3088e0;
 
 }
 
 header nav a:hover {
     text-decoration: underline;
-    color: #123f74;
+    color: #4956b9;
 }
 
 header {
@@ -676,7 +675,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 50px 0;
+    margin: 20px 0;
 
 }
 
@@ -694,10 +693,9 @@ header {
     position: relative;
     width: 300px;
     height: 500px;
-    margin: 5px;
+    margin: 5px 0px;
     background: #000;
     box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
-    margin:5px;
 
 }
 
@@ -809,6 +807,7 @@ header {
     justify-content: space-around;
     align-items: center;
     margin: 100px 0px;
+    flex-wrap: wrap;
 
 
 }
@@ -955,7 +954,6 @@ header {
     background: hsla(0, 0%, 100%, 0.578);
     border-radius:20px;
     text-align: center;
-    width: 600px;
     margin: auto;
     padding: 20px;
     -webkit-border-radius:20px;
@@ -1229,14 +1227,15 @@ header nav a {
 
 .banner{
 	width: 100%;
-    max-width: 1200px;
-	height: 500px;
+	max-width: 1200px;
+	height: 600px;
 	animation: banner 10s infinite linear alternate;
 	background-size: 100% 100%;
 	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	-webkit-animation: banner 10s infinite linear alternate;
 }
 
 .titulo {
@@ -1295,5 +1294,98 @@ header nav a {
 	-ms-transform: scale(1.7);
 	-o-transform: scale(1.7);
 }
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin: 20px 0px;
+    background: #000;
+    box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+  
+
+}
+
+.titulo2{
+    color: #3088e0;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    background: hsla(0, 0%, 100%, 0.578);
+    border-radius:20px;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    box-shadow: 0px 10px 10px black;
+
+}
+.square-general {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0px;
+    flex-wrap: wrap;
+
+
+}
+
+
+.square {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+footer .footer-general .footer-ind a {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 5PX 5PX;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 0px;
+}
+footer .footer-general .footer-ind p {
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: 5PX 5PX;
+    font-size: 12px;
+    font-weight: 600;
+}
+.footer-redes .subtitulo-footer {
+    font-size: 20px;
+    color: #3709e0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.fab{
+    color: #fff;
+    font-size:40px;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    background: #000;
+    margin: 0px 0px;
+}
+
 
 }
