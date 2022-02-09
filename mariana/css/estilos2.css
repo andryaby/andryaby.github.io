@@ -251,6 +251,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: row;
 }
 
 .titulo1{
@@ -263,7 +264,6 @@ header {
     border-radius:20px;
     padding: 10px;
     text-align: center;
-    width: 600px;
     margin: auto;
     margin-bottom: 30px;
 }
@@ -1420,5 +1420,83 @@ footer .footer-general .footer-ind .span-footer {
  
     
  }
+
+
+ .parrafo-servicios {
+    text-indent: 0px;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.0;
+    margin-bottom: 10px;
+    border-radius:20px;
+    padding: 10px 15px;
+    text-align: center;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+}
+
+.servicios .servicios-ind {
+    width: 100%;
+    height: auto;
+    background: hsla(0, 0%, 100%, 0.501);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px black;
+    margin-bottom: 10px;
+}
+
+.servicios .servicios-ind img {
+    width: 30%;
+    height: 200px;
+    border-radius:20px;
+    -webkit-border-radius:20px;
+    -moz-border-radius:20px;
+    -ms-border-radius:20px;
+    -o-border-radius:20px;
+    box-shadow: 0px 0px 5px 1px black;
+}
+
+
+.subtitulo-serv {
+    font-size: 30px;
+    color: #366294;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.subtitulo-valores{
+    font-size: 20px;
+    color: #000;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.contenido-slider h2{
+    color: #000;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+	line-height: 1.0;
+    border-radius:20px;
+    text-align: center;
+}
+
+
 
 }
