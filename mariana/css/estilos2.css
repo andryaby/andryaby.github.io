@@ -1493,9 +1493,39 @@ header nav a {
         padding: 10px;
     }
 
-
-
-    .peliculas-recomendadas p {
+    .parrafo-dos{
+        color: #000;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.3;
+        margin: 20px 0px;
+        background: hsla(214, 41%, 97%, 0.405);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        text-indent: 20px;
+    }
+    .parrafo-uno{
+        color: #000;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.3;
+        margin-bottom: 15px;
+        background: hsla(210, 74%, 53%, 0.131);
+        border-radius: 20px;
+        padding: 10px;
+        text-align: justify;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        text-indent: 20px;
+    }
+    .peliculas-recomendadas .parrafo-uno {
         color: #000;
         font-size: 20px;
         font-family: 'Times New Roman', Times, serif;
