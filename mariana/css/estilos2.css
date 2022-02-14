@@ -87,8 +87,14 @@ header nav a {
 }
 
 header nav a:hover {
-    text-decoration: underline;
-    color: #8b8c9b;
+    background: #3088e0;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 header {
@@ -265,9 +271,8 @@ header {
     font-style: italic;
     font-weight: 600;
     text-align: center;
-    margin-bottom: 30px;
-    text-shadow: 2px 2px 2px #aabbcc;
-}
+    margin-bottom: 10px;
+F}
 
 
 
@@ -550,9 +555,9 @@ header {
     color: #000;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 1.7;
+    line-height: 1.4;
     margin-bottom: 30px;
-    background: hsla(210, 74%, 53%, 0.131);
+    background: #fff;
     border-radius: 20px;
     padding: 10px;
     text-align: justify;
@@ -561,6 +566,7 @@ header {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     text-indent: 20px;
+    box-shadow: 0px 10px 10px -6px black;
 }
 
 .parrafo-dos{
@@ -569,7 +575,7 @@ header {
     font-family: 'Times New Roman', Times, serif;
     line-height: 1.7;
     margin: 20px 0px;
-    background: hsla(214, 41%, 97%, 0.405);
+    background: #fff;
     border-radius: 20px;
     padding: 10px;
     text-align: center;
@@ -578,6 +584,8 @@ header {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
     text-indent: 20px;
+    box-shadow: 0px 10px 10px -6px black;
+
 }
 
 
@@ -621,16 +629,20 @@ header {
 .peliculas-recomendadas .contenedor-principal .flecha-derecha {
     position: absolute;
     border: none;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(54, 53, 53, 0.3);
     font-size: 40px;
     height: 50%;
     top: calc(50% - 25%);
     line-height: 40px;
-    width: 50px;
+    width: 30px;
     color: #fff;
     cursor: pointer;
     z-index: 500;
     transition: .2s ease all;
+    -webkit-transition: .2s ease all;
+    -moz-transition: .2s ease all;
+    -ms-transition: .2s ease all;
+    -o-transition: .2s ease all;
 }
 
 .peliculas-recomendadas .contenedor-principal .flecha-izquierda:hover,
@@ -660,11 +672,11 @@ header {
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
-    min-width: 25%;
-    height: 350px;
+    min-width: 35%;
+    height: 400px;
     transition: .3s ease all;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
-    margin: 10px;
+    margin: 15px;
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
@@ -748,7 +760,7 @@ header {
     width: 100%;
     margin: auto;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
     margin: 20px 0;
 
@@ -766,12 +778,11 @@ header {
 
 .box {
     position: relative;
-    width: 300px;
+    width: 32%;
     height: 500px;
-    margin: 5px 0px;
+    margin: 5px;
     background: #000;
     box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
-    margin-bottom: 10px;
 
 }
 
@@ -1033,20 +1044,20 @@ header {
 
 
 .titulo2 {
-    color: #3088e0;
+    color: #6a6e72;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 1px;
-    background: hsla(0, 0%, 100%, 0.578);
+    background: #fff;;
     border-radius: 20px;
     text-align: center;
-    margin: auto;
-    padding: 20px;
+    padding: 10px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
-    box-shadow: 0px 10px 10px black;
+    width: 600px;
+    margin: auto;
 
 }
 
@@ -1055,7 +1066,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     background: #fff;
 
 }
@@ -1063,8 +1074,8 @@ header {
 
 .card {
     position: relative;
-    width: 380px;
-    height: 580px;
+    width: 32%;
+    height: 600px;
     margin: 10px;
 
 }
@@ -1162,7 +1173,7 @@ header {
 
 
 .titulo-historia {
-    color: #FF1493;
+    color: #3088e0;
     font-size: 60px;
     font-family: 'Times New Roman', Times, serif;
     font-style: italic;
@@ -1176,7 +1187,7 @@ header {
 
 .card .back p {
     padding: 20px 10px;
-    line-height: 1.3em;
+    line-height: 1.1em;
     color: #000;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -1230,7 +1241,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-top: 60px;
+    margin-top: 30px;
 
 }
 
@@ -1347,7 +1358,7 @@ footer .footer-general .footer-ind a:hover {
 
 
 .iconos {
-    margin-top: 60px;
+    margin-top: 30px;
     max-height: 100px;
     width: 100%;
     display: flex;
@@ -1475,8 +1486,7 @@ header nav a {
         font-style: italic;
         font-weight: 600;
         text-align: center;
-        margin-bottom: 30px;
-        text-shadow: 2px 2px 2px #aabbcc;
+        margin-bottom: 10px;
     }
 
     .portafolio .parrafo-trabajo {
@@ -1493,29 +1503,13 @@ header nav a {
         padding: 10px;
     }
 
-    .parrafo-dos{
-        color: #000;
-        font-size: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        line-height: 1.3;
-        margin: 20px 0px;
-        background: hsla(214, 41%, 97%, 0.405);
-        border-radius: 20px;
-        padding: 10px;
-        text-align: center;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-        text-indent: 20px;
-    }
     .parrafo-uno{
         color: #000;
         font-size: 18px;
         font-family: 'Times New Roman', Times, serif;
-        line-height: 1.3;
-        margin-bottom: 15px;
-        background: hsla(210, 74%, 53%, 0.131);
+        line-height: 1.1;
+        margin-bottom: 30px;
+        background: #fff;
         border-radius: 20px;
         padding: 10px;
         text-align: justify;
@@ -1524,7 +1518,31 @@ header nav a {
         -ms-border-radius: 20px;
         -o-border-radius: 20px;
         text-indent: 20px;
+        box-shadow: 0px 10px 10px -6px black;
     }
+    
+    .parrafo-dos{
+        color: #000;
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 1.1;
+        margin: 20px 0px;
+        background: #fff;
+        border-radius: 20px;
+        padding: 10px;
+        text-align: center;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        text-indent: 20px;
+        box-shadow: 0px 10px 10px -6px black;
+        margin:30px;
+    
+    }
+    
+    
+    
     .peliculas-recomendadas .parrafo-uno {
         color: #000;
         font-size: 20px;
@@ -1541,7 +1559,7 @@ header nav a {
 
     .peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
         min-width: 100%;
-        height: 500px;
+        height: 600px;
         transition: .3s ease all;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
         margin: 0px;
@@ -1568,22 +1586,19 @@ header nav a {
     }
 
     .titulo2 {
-        color: #3088e0;
+        color: #6a6e72;
         font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing: 1px;
-        background: hsla(0, 0%, 100%, 0.578);
+        background: #fff;
         border-radius: 20px;
         text-align: center;
+        padding: 10px;
+  
+        width: 300px;
         margin: auto;
-        padding: 20px;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
-        -ms-border-radius: 20px;
-        -o-border-radius: 20px;
-        box-shadow: 0px 10px 10px black;
-
-    }
+}
+    
 
     .square-general {
         width: 100%;
@@ -1609,13 +1624,30 @@ header nav a {
 
     }
 
+    .card {
+        position: relative;
+        width: 92%;
+        height: 500px;
+        margin: 20px;
+    
+    }
+
+    .info-historia {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background: #fff;
+    
+    }
+
     .footer-redes {
         width: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 30px;
 
     }
 
@@ -1767,7 +1799,7 @@ header nav a {
     }
 
     .titulo-historia {
-        color: #FF1493;
+        color: #3088e0;
         font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
         font-style: italic;
@@ -1776,6 +1808,33 @@ header nav a {
         margin-bottom: 50px;
         text-shadow: 2px 2px 2px #aabbcc;
     }
+
+
+    .container {
+        max-width: 1200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 20px 0;
+    
+    }
+  
+    
+    
+    .box {
+        position: relative;
+        width: 92%;
+        height: 400px;
+        margin: 15px 0px;
+        background: #000;
+        box-shadow: 0 30px 30px rgba(0, 0, 0, .5);
+    
+    }
+
+
+    
 
 
 
