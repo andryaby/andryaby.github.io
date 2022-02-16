@@ -665,11 +665,15 @@ header {
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula {
-    min-width: 35%;
-    height: 400px;
+    min-width: 19%;
+    height: 300px;
     transition: .3s ease all;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
-    margin: 15px;
+    margin: 5px;
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -ms-transition: .3s ease all;
+    -o-transition: .3s ease all;
 }
 
 .peliculas-recomendadas .contenedor-carousel .carousel .pelicula.hover {
