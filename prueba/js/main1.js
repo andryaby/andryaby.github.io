@@ -27,7 +27,7 @@ flechaIzquierda.addEventListener('click', () => {
 });
 
 // ? ----- ----- Paginacion ----- -----
-const numeroPaginas = Math.ceil(peliculas.length / 4);
+const numeroPaginas = Math.ceil(peliculas.length / 3);
 for(let i = 0; i < numeroPaginas; i++){
 	const indicador = document.createElement('button');
 
